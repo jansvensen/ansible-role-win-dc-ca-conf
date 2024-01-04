@@ -2,4 +2,4 @@
   - name: Configura CA
     script: files/ca-configure.ps1
     args:
-      creates: {{ directory_logging }}ca-configure.txt
+      creates: {{ win.directory.logging }}ca-configure.txt
